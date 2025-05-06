@@ -77,20 +77,20 @@ public class Playerinput : MonoBehaviour
         }
     }
 
-    /*  private void OnCollisionEnter2D(Collision2D collision)
+      private void OnCollisionEnter2D(Collision2D collision)
       {
           // 碰到怪物時播放受傷動畫
           if (collision.gameObject.tag == "monster")
           {
               Debug.Log("hurt");
               animator.SetTrigger("hurt");
-              mylife -= 10; //生命值扣10
-              gameManager.m_HPBar.fillAmount -= 0.1f;// 血條填充長度減短0.1長度
+            //  mylife -= 10; //生命值扣10
+          //    gameManager.m_HPBar.fillAmount -= 0.1f;// 血條填充長度減短0.1長度
           }
 
 
       }
-    */
+    
 
 }
 
